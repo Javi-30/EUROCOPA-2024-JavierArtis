@@ -105,7 +105,7 @@ def main():
                 print("------------------------") 
 
           
-            with open("COMPRAS.txt", "w") as a:
+            with open("COMPRAS.txt", "a") as a:
                     a.write("CLIENTES:\n")
                     a.write(guardar)
                     a.write("")

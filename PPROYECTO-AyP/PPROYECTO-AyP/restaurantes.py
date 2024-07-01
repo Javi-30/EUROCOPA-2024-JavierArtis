@@ -84,7 +84,7 @@ def procesar_carrito(carrito, id):
     for p in carrito: 
         print("")
         Product.print_product_in_menu(p)
-        monto += Product.get_price(p)
+        monto += float(Product.get_price(p))
     
     iva = monto*0.16
 
